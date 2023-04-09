@@ -1,5 +1,10 @@
 {
   "manifest_version": 3,
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
   "name": "SourceGPT",
   "description": "Using ChatGPT to examine sourcing in news articles",
   "options_page": "options.html",
